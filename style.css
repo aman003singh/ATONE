@@ -1,0 +1,173 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700;800&family=Rubik:wght@300;400;500;700&display=swap');
+
+  body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+  }
+
+  .navbar img {
+      width: 8rem;
+      border-radius: 5px;
+      padding-left: 10px;
+  }
+
+  .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* border-bottom: 0.01rem solid rgb(251, 251, 251); */
+      /* background-color: rgba(0, 0, 0, 0.634); */
+      background: linear-gradient(to right, #FF5252, #FF4081);
+      height: 10vh;
+  }
+
+  .navbar ul a {
+      text-decoration: none;
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: medium;
+      margin: 0 4vw;
+      color: rgb(255, 255, 255);
+  }
+
+  .navbar ul a:hover {
+      color: rgb(0, 0, 0);
+      text-decoration: underline;
+  }
+
+  .card {
+      height: 30vh;
+      width: 20vw;
+      margin: 10px;
+      padding:5px;
+      text-align: center;
+      box-shadow: 0px 0px 20px rgb(144, 144, 144);
+      background-color: rgb(255, 255, 255);
+
+      color: rgb(0, 0, 0);
+      font-size: larger;
+      font-family: sans-serif;
+      font-weight: 700;
+  }
+
+  .card img {
+      width: 90%;
+      height: 60%;
+      object-fit: contain;
+      padding-bottom:5%;
+      /* object-fit: cover; */
+
+      /* margin-bottom: 10%; */
+  }
+
+.cardtext{
+    margin: 0;
+}
+
+
+  #rightbox a {
+      text-decoration: none;
+      height: 0;
+
+  }
+
+
+
+  /* added file-------------------- */
+
+  #card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+  }
+
+  .show {
+      width: 100%;
+      height: auto
+  }
+
+  #flexbox1 {
+      background-color: rgb(253, 253, 253);
+      height: 100vh;
+      width: auto;
+      display: flex;
+  }
+
+  #leftbox {
+      height: 100vh;
+      text-align: center;
+      padding: 2%;
+      font-family: rubik;
+      border-right: 9px double rgb(255, 92, 92);
+      background-color: transparent;
+
+  }
+
+  #rightbox {
+      display: flex;
+      flex-wrap: wrap;
+      padding: auto;
+      justify-content: center;
+      height: 100vh;
+      width: 100%;
+      background-color: transparent;
+
+
+  }
+
+  .button {
+      background: linear-gradient(to right, #FF5252, #FF4081);
+      border-radius: 6px;
+      color: white;
+      height: 5vh;
+      width: 100%;
+      box-shadow: none;
+      border: none;
+      margin: 1vh;
+      margin-bottom: 3vh;
+      font-family: rubik;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 14px;
+  }
+
+  .button:hover {
+      height: 6vh;
+      box-shadow: 0px 0px 10px rgb(140, 140, 140);
+  }
+
+  .popbutton {
+
+      border-radius: 6px;
+      color: rgb(255, 79, 108);
+      height: 15%;
+      width: 70%;
+      box-shadow: none;
+      border: 4px solid rgb(255, 79, 108);
+      background-color: transparent;
+
+      margin: 1vh;
+      font-family: rubik;
+      font-weight: 600;
+      font-size: 18px;
+
+  }
+
+  .popbutton:hover {
+      background: linear-gradient(to right, #FF5252, #FF4081);
+      border: none;
+      color: white;
+
+  }
+
+  .input {
+      width: 100%;
+      height: 3vh;
+      border-radius: 20px;
+      border: none;
+      margin-bottom: 2vh;
+      border: 3px solid #FF5252;
+  }

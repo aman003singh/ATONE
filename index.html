@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Websites</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    .card{
+        background-color: rgba(0, 0, 0, 0.328);
+        box-shadow: none;
+        color: white;
+        text-decoration: none;
+        border-radius:15px;
+    }
+
+    body{
+        background-image: url(orangish.jpg); background-size:cover;
+    }
+
+    section{
+        display: flex; flex-wrap: wrap;
+    }
+</style>
+
+  <body id="body">
+    <nav class="navbar">
+      <img src="logo.png" alt="logo" />
+      <ul>
+        <a href="#">Home</a>
+        <a href="design.html">Design</a>
+        <a href="code.html">Coding</a>
+        <a href="game.html">Games</a>
+      </ul>
+    </nav>
+
+    <div id="flexbox1">
+      <section id="leftbox">
+        <div>
+          <input
+            type="button"
+            onclick="Show()"
+            id="showbtn"
+            value="show"
+            class="button"
+          />
+          <div id="things"></div>
+          <input
+            type="button"
+            onclick="Hide()"
+            id="hidebtn"
+            value="Hide"
+            class="button"
+          />
+          <div>
+            <label for="imageUrl">Image URL:</label>
+            <input type="text" id="imageUrl" class="input" />
+          </div>
+          <div>
+            <label for="url">URL:</label>
+            <input type="text" id="url" class="input" />
+          </div>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" class="input" />
+          </div>
+          <button onclick="generateCard()" class="button">Generate Card</button>
+        </div>
+      </section>
+
+      <section id="rightbox"></section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
